@@ -31,9 +31,9 @@ public class Main extends PApplet {
 	String newFileName = "";	
 	String loadFileName = "";
 	
-	public void settings() { //TODO add creation of new maps from scratch, maybe watch UI start screen video
+	public void settings() {
 		size(1000, 1000);
-//		fullScreen();		// git test
+		fullScreen();
 	}
 	
 	public void setup() {		
